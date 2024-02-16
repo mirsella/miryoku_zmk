@@ -5,13 +5,13 @@
 #include "../miryoku/mapping/42/corne.h"
 #include "../miryoku/miryoku.dtsi"
 
-// / {
-//     combos {
-//         compatible = "zmk,combos";
-//         combo_to_base {
-//             timeout-ms = <U_TAPPING_TERM>;
-//             key-positions = <34 35>;
-//             bindings = <&to BASE>;
-//         };
-//     };
-// };
+/ {
+   combos {
+       compatible = "zmk,combos";
+       combo_to_base {
+           timeout-ms = <U_TAPPING_TERM>;
+           key-positions = <34 35>;
+           bindings = <&to BASE>;
+       };
+   };
+};
