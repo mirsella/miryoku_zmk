@@ -11,7 +11,7 @@
         combo_tobase {
             timeout-ms = <U_TAPPING_TERM>;
             key-positions = <34 35>;
-            bindings = <&to U_BASE>;
+            bindings = <&kp W>;
         };
     };
 };
