@@ -11,7 +11,27 @@
         combo_tobase {
             timeout-ms = <40>;
             key-positions = <40 41>;
+            bindings = <&kp Q>;
+        };
+    };
+};
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_t {
+            timeout-ms = <40>;
+            key-positions = <38 39>;
             bindings = <&kp W>;
         };
     };
 };
+{
+    combos {
+        compatible = "zmk,combos";
+        combo_test {
+            timeout-ms = <40>;
+            key-positions = <1 2>;
+            bindings = <&to U_BASE>;
+        };
+    };
+}
