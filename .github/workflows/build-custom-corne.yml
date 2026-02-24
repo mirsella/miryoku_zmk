@@ -10,4 +10,5 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["corne_left","corne_right"]'
+      kconfig: '["CONFIG_BT_DEVICE_NAME_MAX=29"]'
       branches: '["zmkfirmware/zmk/v0.3-branch"]'
